@@ -1,5 +1,5 @@
 {
-  "name": "bemclass",
+  "name": "@upsales/bemclass",
   "version": "1.0.0",
   "description": "Helper for creating CSS class names in BEM standard",
   "main": "./lib/bemClass.js",

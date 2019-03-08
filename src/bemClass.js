@@ -8,7 +8,7 @@
 * Use .b() to build string if component does not use valueOf 
 *
 **/
-export default class BemClass {
+class BemClass {
 	constructor(block, additions='') {
 		this.block = block;
 		this.additions = additions instanceof BemClass ? additions.b() : additions;
@@ -52,3 +52,5 @@ export default class BemClass {
 		return this;
 	}
 }
+
+module.exports = BemClass;

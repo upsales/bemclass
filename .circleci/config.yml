@@ -20,6 +20,10 @@ jobs:
           - alpha-dependencies-{{ checksum "package.json" }}
           - alpha-dependencies-
 
+      - run:
+          name: Authenticate with registry
+          command: echo "//registry.npmjs.org/:_authToken=$NPMTOKEN" > ~/repo/.npmrc
+
       - run: npm install
       - run:
           name: Run tests

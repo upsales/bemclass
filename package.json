@@ -1,6 +1,6 @@
 {
   "name": "@upsales/bemclass",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Helper for creating CSS class names in BEM standard",
   "main": "main.js",
   "scripts": {
